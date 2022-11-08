@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wen</groupId>
+    <artifactId>JavaSE</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>JavaSE_1_基础知识</module>
+        <module>JavaSE_2_面向对象</module>
+        <module>JavaSE_3_常用类</module>
+        <module>JavaSE_4_异常</module>
+        <module>JavaSE_5_集合</module>
+        <module>JavaSE_6_泛型</module>
+        <module>JavaSE_7_IO流</module>
+        <module>JavaSE_8_网络编程</module>
+        <module>JavaSE_9_多线程</module>
+        <module>JavaSE_10_反射</module>
+        <module>JavaSE_11_注解</module>
+        <module>JDBC</module>
+        <module>函数式编程stream流</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
